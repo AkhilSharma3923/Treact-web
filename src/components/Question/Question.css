@@ -1,0 +1,52 @@
+.question{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.qleft{
+    margin-top: 50px;
+    width: 40vw;
+    height: 80vh;
+    /* background-color: red; */
+}
+.qleft h1{
+    font-size: 60px;
+    color: #243E63;
+    margin-bottom: 30px;
+
+}
+.qleft p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 35vw;
+    font-weight: 400;
+}
+.qq{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+    cursor: pointer;
+}
+.qq h3{
+    font-size: 23px;
+    color: #243E63;
+}
+.qq .plus{
+    width: 25px;
+    height: 25px;
+    color: #243E63;
+
+}
+.qright{
+    margin-top: 50px;
+    width: 40vw;
+    height: 80vh;
+    background: #000;
+    background-image: url("https://images.unsplash.com/photo-1579427421635-a0015b804b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80");
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}

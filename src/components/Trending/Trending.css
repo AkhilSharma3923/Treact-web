@@ -1,0 +1,106 @@
+.trending{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
+.first{
+    width: 30vw;
+    height: 600px;
+    /* background-color: red; */
+}
+.first h1{
+    color: #243E63;
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.first p{
+    color: #243E63;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.first .btn2{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    color: #6415FF;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.second {
+    width: 380px;
+    /* height: 600px; */
+    /* background-color: red; */
+}
+.second h1{
+    color: #243E63;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.bgimg{
+    background-image: url("https://images.unsplash.com/photo-1553194587-b010d08c6c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80");
+    width: 380px;
+    height: 320px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}
+.tname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tname .alka{
+    color: #6415FF;
+    font-weight: 600;
+}
+.tname p{
+    font-size: 20px;
+    color: black;
+}
+.tname span {
+    color: #243E63;
+
+}
+.three{
+    display: flex;
+    align-items: center;
+    /* gap: px; */
+    gap: 25px;
+}
+.rrrr{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 3px;
+}
+.booknowbtn{
+    margin-top: 20px;
+    background-color: #6415FF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.third{
+    width: 380px;
+}
+.third h1{
+    color: #243E63;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.third .bgimg{
+    background-image: url("https://images.unsplash.com/photo-1546971587-02375cbbdade?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80");
+    width: 380px;
+    height: 320px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}

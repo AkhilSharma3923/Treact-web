@@ -1,0 +1,134 @@
+.hotel {
+    margin-top: 100px;
+    margin-left: 100px;
+    
+
+}
+
+.hotel h1 {
+    font-size: 55px;
+    color: #243E63;
+    font-weight: 800;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+    margin-top: 50px;
+}
+.tt {
+    width: 459px;
+    border: 2px solid whitesmoke;
+    border-radius: 0px 0px 2.5rem; 
+    overflow: hidden; 
+    /* background-color: white; */
+}
+.tt .img {
+    height: 296px;
+    background-image: url("https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80");
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.5rem 0px 0px;
+}
+.ff{
+    width: 459px;
+    height: 560px;
+/* background-color: aqua; */
+}
+
+
+.name {
+    padding-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.name h2 {
+    color: #243E63;
+    font-size: 25px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+.rating .react-icons {
+    height: 25px;
+    width: 25px;
+    color: red;
+}
+
+.rating p {
+    font-size: 18px;
+    color: #243E63;
+    font-weight: 600;
+}
+
+.location {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-left: 50px;
+}
+
+.left1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.left1 .loco {
+    width: 30px;
+    color: #243E63;
+    height: 30px;
+}
+
+.left1 p {
+    font-size: 15px;
+    color: #243E63;
+    font-weight: 500;
+}
+
+.right1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.right1 .dolo {
+    width: 30px;
+    color: #243E63;
+    height: 30px;
+}
+
+.right1 p {
+    font-size: 15px;
+    color: #243E63;
+    font-weight: 500;
+}
+.aaa {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 0px 0px 2.5rem 0rem;
+    padding: 30px 60px;
+    background-color: #6415FF;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+} 
+

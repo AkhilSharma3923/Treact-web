@@ -1,0 +1,51 @@
+.service {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.serleft {
+    background: url("https://images.unsplash.com/photo-1582564286939-400a311013a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80");
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height: 80vh;
+}
+
+.serright {
+    width: 40vw;
+    height: 80vh;
+}
+.serright h1{
+    margin-top: 30px;
+    font-size: 60px;
+    color: #243E63;
+
+}
+.serright p{
+    margin-top: 20px;
+    color: #243E63;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.counting{
+    display: flex;
+    align-items: center;
+
+}
+.number{
+    width: 300px;
+    margin-top: 50px;
+}
+.counting p{
+    color: #6415FF;
+    font-size: 40px;
+    font-weight: 500;
+}
+.number .yash{
+    color: #243E63;
+    font-size: 35px;
+
+}

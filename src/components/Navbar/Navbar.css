@@ -1,0 +1,100 @@
+.nav{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 50vw;
+    height: 100vh;
+    /* background-color: red; */
+    margin-left: 100px;
+
+}
+.navi{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    height: 80px;
+    width: full;
+    /* background: aqua; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #243E63;
+}
+.right{
+    width: 50vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    background-image: url("https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&width=1440&height=1024&q=75");
+    background-size: cover;
+    background-position: center;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.list li {
+    color: #243E63;
+    font-size: 20px;
+    font-weight: 500;
+}
+.list li:hover{
+    color: #6415FF;
+    border-bottom: 2px solid #6415FF;
+}
+
+.down{
+    margin-top: 100px;
+    width: 40vw;
+    
+}
+.down h1{
+    font-size: 60px;
+    color: #243E63;
+}
+.down span{
+    color: #6415FF;
+
+}
+.down p{
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #243E63;
+    width: 31vw;
+
+}
+.btn{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 40px;
+}
+.sign{
+    background-color: #6415FF;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.search{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #E2E8F0;
+    color: #4A5568;
+    font-size: 18px;
+}

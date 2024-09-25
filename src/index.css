@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-color: white;
+  /* margin: 0px 150px; */
+  font-family: Outfit;
+  overflow-x: hidden;
+}
